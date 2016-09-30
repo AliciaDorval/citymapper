@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+ background-color:#37ab2e;
+ font-family: proxima;
+}
+nav {
+ overflow: hidden;
+ background-color: #444;
+ box-shadow: none;
+}
+svg {
+ width: 100px;
+ position: relative;
+ top: 3;
+}
+
+.mapper {
+  font-weight: 700;
+ font-size: 29px;
+ color: #fff;
+}
+
+.paris {
+  color: #ffcb0a;
+  font-weight: 700;
+}
+
+.material-icons {
+  color:  #ffcb0a;
+}
+
+.home {
+  font-size: 1.5em;
+  color: white;
+  opacity: .5;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.social {
+  background-color: #2b8825;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+
+}
+
+.connect {
+  color: #ffcb0a;
+  margin-bottom: .2em;
+  font-weight: 700;
+}
+
+.bouton1 {
+margin-top: 200px;
+}
+
+.bouton2 {
+  margin-top: 30px;
+}
+
+.where h3{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#first_name {
+  background: rgba(0,0,0,.2);
+border-radius: 9px 0 0 9px;
+padding: 5px;
+padding-right: 0;
+}
+
+.search {
+  background-color: white;
+  border-radius: 6px 6px 6px 6px;
+  margin: 30px;
+
+}
+
+/*.search2{
+  background-color: white;
+  border-radius: 6px 6px 0px 0px;
+
+}*/
+
+nav .input-field label  .loupe {
+  color: #2B8825;
+}
+
+
+label i .material-icons .loupe {
+  color: green;
+}
+
+.couleur {
+  width: 90%;
+
+}
+
+.couleur-icon {
+  width:9%;
+  margin-left:10px;
+}
+.swap {
+color: #236E1E;
+display: flex;
+justify-content: flex-end;
+align-self: flex-start;
+}
+
+.couleur-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #2C8925;
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+#now {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-top: 30px;
+}
+
+.transport {
+margin-top: 25px;
+}
+
+
+
+.logo-container ul {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.logo {
+  width: 50px;
+  background: #267720;
+  border-radius: 50%;
+}
+
+.line {
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  background: rgba(0,0,0,.2);
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.badeau {
+  background-color: #515151;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.new {
+  color: white;
+  /*background-color: #515151;*/
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.seat {
+  width: 100%;
+  height: 12em;
+}
+
+.card-action {
+color: #777777;
+
+}
+
+.read {
+  color: #F5C62E;
+  margin-left: 60px;
+}
+
+.more {
+  color: #F5C62E;
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+}
+
+footer.page-footer {
+  background-color: #444444;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.nom {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+
+}
+
+.sous-titre {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.btn {
+font-weight: 700;
+margin: 10px;
+}
+
+
+.apple {
+  margin-right: 500px;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  color: white;
+text-align: center;
+}
+
+
+.our {
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+.pays ul{
+text-decoration: underline;
+  color: #7AA3B1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pipe {
+  text-decoration: none;
+}
+
+strong {
+  color: #FFCB0A;
+display: flex;
+justify-content: center;
+font-size: 18px;
+text-decoration: underline;
+}
+
+.ligne {
+  margin-bottom: 0;
+}
